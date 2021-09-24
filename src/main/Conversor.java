@@ -1,5 +1,6 @@
 package main;
 
+import model.Binario;
 import model.Decimal;
 import model.Hexadecimal;
 
@@ -11,6 +12,7 @@ public class Conversor {
 		System.out.println(Decimal.octToDec("1316"));
 		System.out.println(Decimal.binToDec("1011001110"));
 		System.out.println(Hexadecimal.decToHex("718"));
-		System.out.println(Hexadecimal.binToHex("1111001110"));
+		System.out.println(Hexadecimal.binToHex("11111110"));
+		System.out.println(Binario.hexToBin("FA53"));
 	}
 }
